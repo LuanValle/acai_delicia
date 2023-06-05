@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: white;   
+}
+
+
+
+.menu_h {background-color: purple;}
+
+.logo_menu{
+	width: 100px;
+}
+
+
+/*inicio produtos*/
+
+#produtos img{
+	margin-top: 50px;
+	width: 300px;
+}
+
+#produtos button{
+
+	margin-left: 18%;
+	margin-top: 10%;
+	width: 180px;
+	height: 40px;
+}
+
+#produtos{
+	border-radius: 1px solid red;
+	margin-left: 80px;
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+}
+
+/*final produtos*/
+
+.menu_h ul{
+display:flex;
+max-width: 1000px;
+list-style: none;
+padding: 0;
+font-size: medium;
+margin-left: center;
+
+}
+
+.menu_h ul li {
+	display: inline;
+}
+
+.menu_h ul li a {
+	color: #FFF;
+	padding: 20px;
+	display: inline-block;
+	text-decoration: none;
+	transition: background .4s;
+}
+
+.menu_h ul li a:hover {
+	background-color: rgb(191, 122, 216);
+
+}
+
+
+p {
+	font-size: 4rem;
+	
+}
+
+.conteudo{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	border: 0px solid #00008B;
+	padding: 5rem;
+	border-radius: 8px;
+
+}
+
+	
+.carro_home{
+	width: 500px;
+}
+
+.img_frota{
+		width: 500px;
+}
+
+.quem_somos{
+	font-size: 30pt;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.quem_somos_h3 {
+	font-size: 20pt;
+	text-align: center;
+	margin-top: 20px;
+}
+.quem_somos_div{
+	background-color: antiquewhite;
+	width: 100%;
+}
+
