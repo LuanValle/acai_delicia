@@ -22,9 +22,6 @@
 					<a href="quem_somos.php">Quem Somos</a>
 				</li>
 				<li>
-					<a href="contatos.php">Contatos</a>
-				</li>
-				<li>
 					<a href="admin/login/login.php">Entrar</a>
 				</li>
 			

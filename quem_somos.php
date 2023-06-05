@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="css/index2.css">
+		<link rel="stylesheet" type="text/css" href="index2.css">
 		<title>Imperial rent a Car</title>
 	</head>
 <body>
@@ -14,13 +14,10 @@
 					<a href="index.php">Home</a>
 				</li>
 				<li>
-					<a href="produtos.php">Produtos</a>
+					<a href="produtos.php">Cardápio</a>
 				</li>
 				<li>
 					<a href="quem_somos.php">Quem Somos</a>
-				</li>
-				<li>
-					<a href="contatos.php">Contatos</a>
 				</li>
 				<li>
 					<a href="admin/login/login.php">Entrar</a>
