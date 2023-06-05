@@ -4,24 +4,22 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="painel.css">
-		<title>Imperial rent a Car</title>
+		<title>Açaí Delicia</title>
 	</head>
 <body>
 	<header>
 		<nav class="menu_h">
 			<ul>
 				<li>
-					<a href="/../portal/projeto-brilhante-main/index.php">Home</a>
+					<a href="http://localhost/portal/acai_delicia/">Home</a>
 				</li>
 				<li>
-					<a href="produtos.php">Produtos</a>
+					<a href="http://localhost/portal/acai_delicia/cardapio.php">Produtos</a>
 				</li>
 				<li>
-					<a href="http://localhost/projeto1/admin/login/portal.html">Cadastro de Categoria</a>
+					<a href="http://localhost/projeto1/admin/login/portal.html">Cadastro de produtos</a>
 				</li>
-				<li>
-					<a href="http://localhost/projeto1/admin/cadastro_veiculos/cadastro_veiculos.html">Cadastro de Veiculos</a>
-				</li>
+				
 				
 				
 			</ul>
@@ -47,20 +45,6 @@
 
 
 
-	<main class="conteudo">
-		<div>
-			<center>
-				<p> Açaí Delicia</p>
-			</center>
-			
-			<img src="../../img/frota.png" class="carro_home">
-
-		</div>
-
-
-		<span>Açaí Delicia</span>
-	</main>
-	
 	<script src="js/custom.js"></script>
 </body>
 </html>
