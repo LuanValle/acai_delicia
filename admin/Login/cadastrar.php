@@ -1,10 +1,21 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
 <?php
 session_start();
-include ("conexao.php");
+include("admin/Login/conexao.php");
 
-//buscando produto no painel.php
-$produto = mysqli_real_escape_string($mysqli, $_POST['produto']);
+$email = mysqli_real_escape_string($mysqli, $_POST['email']);
+$senha = mysqli_real_escape_string($mysqli, $_POST['senha']);
 
-$sql= "INSERT INTO produtos(nome) VALUES ($nome)";
+$sql = "INSERT INTO usuarios (email, senha) VALUES ('$email', '$senha')";
+
+if($mysqli->query($sql)== TRUE){
+    $_SESSION['status_cadastro']=true;
+}
+
+$mysqli->close();
+
+header('Location: cadastro.php');
 
 ?>
