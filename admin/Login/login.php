@@ -74,8 +74,6 @@ if(isset($_POST['email']) || isset($_POST['senha'])){
 
 						<div><input type="submit" id="btn_entrar" name="btn_entrar" value="Entrar"></div>
 
-						<div class="btn_cadastrar"><input type="submit" id="btn_cadastrar" name="btn_cadastrar" value="Cadastrar"></div>
-
 					</div>
 
 					<div>

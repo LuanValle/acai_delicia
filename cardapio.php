@@ -24,6 +24,9 @@
 				<li>
 					<a href="admin/login/login.php">Entrar</a>
 				</li>
+				<li>
+					<a href="cadastro.php">cadastrar</a>
+				</li>
 			
 			</ul>
 			
