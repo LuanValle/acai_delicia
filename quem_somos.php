@@ -14,7 +14,7 @@
 					<a href="index.php">Home</a>
 				</li>
 				<li>
-					<a href="produtos.php">Cardápio</a>
+					<a href="cardapio.php">Cardápio</a>
 				</li>
 				<li>
 					<a href="quem_somos.php">Quem Somos</a>
