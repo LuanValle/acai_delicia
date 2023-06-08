@@ -1,50 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="painel.css">
-		<title>Açaí Delicia</title>
-	</head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="paine.css">
+    <title>Açaí Delicia</title>
+</head>
 <body>
-	<header>
-		<nav class="menu_h">
-			<ul>
-				<li>
-					<a href="http://localhost/portal/acai_delicia/">Home</a>
-				</li>
-				<li>
-					<a href="http://localhost/portal/acai_delicia/cardapio.php">Produtos</a>
-				</li>
-				<li>
-					<a href="http://localhost/projeto1/admin/login/portal.html">Cadastro de produtos</a>
-				</li>
-				
-				
-				
-			</ul>
-		</nav>
-	</header>
 
-	
-	<form id="cadastro_categoria" name="cadastro_categoria" class="cadastro" method="post" action="Cadastrar.php">
+	<div class="user-info">
+		<?php
+		session_start();
+		if (isset($_SESSION['email'])) {
+			echo "<p>Bem-vindo, " . $_SESSION['email'] . "</p>";
+			echo "<form action='editar_usuario.php'>";
+			echo "<div>";
+			echo "<input type='submit' value='Editar Usuário'>";
+			echo "</div>";
+			echo "</form>";
+		} else {
+			echo "<p>Sessão não iniciada.</p>";
+		}
+		?>
+		<form action="exclusao_de_conta.php">
+			<div>
+				<input type="submit" value="Excluir Conta">
+			</div>
+		</form>
+	</div>
 
-		<div id="formulario">
-			<legend>Cadastre a Categoria</legend>	
-			<input class="cadastro_produto" type="text" placeholder="nome do produto" id="produto" name="produto" required autofocus>
-
-			<button type="button" onclick="adcionarCampo()">+</button>
-		</div>
-			
-		<div>
-			<input class="botao" type="submit" id="btn_entrar" name="action" value="inserir"></div>
-		</div>
-	</form>
-
-
-
-
-
-	<script src="js/custom.js"></script>
 </body>
 </html>
