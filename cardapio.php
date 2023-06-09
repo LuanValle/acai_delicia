@@ -13,7 +13,7 @@
 		<nav class="menu_h">
 			<ul>
 				<li>
-					<a href="index.php">Home</a>
+					<a href="index.html">Home</a>
 				</li>
 				<li>
 					<a href="cardapio.php">Cardápio</a>
