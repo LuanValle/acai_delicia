@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="index2.css">
-		<title>Quem Somos_Açaí da Gleyce</title>
+		<title>Quem Somos_Açaí</title>
 	</head>
 <body>
 	<header>

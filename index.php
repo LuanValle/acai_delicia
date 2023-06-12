@@ -40,7 +40,7 @@
 	<main class="conteudo">
 		<div>
 			<center>
-				<p> açaí Delicia</p>
+				<p> Açaí Delicia</p>
 			</center>
 			
 			<img src="img/produto.png" class="carro_home">
