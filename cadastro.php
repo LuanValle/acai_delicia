@@ -3,7 +3,7 @@
 <html lang="pt-br">
 <?php
 session_start();
-include("admin/Login/conexao.php");
+include("admin/login/conexao.php");
 
 $email = mysqli_real_escape_string($mysqli, $_POST['email']);
 $senha = mysqli_real_escape_string($mysqli, $_POST['senha']);
@@ -27,7 +27,7 @@ $mysqli->close();
 	<title>cadastro</title>
 
 	<!-- ARQUIVO DE ESTILOS DO PORTAL -->
-	<link rel="stylesheet" type="text/css" href="admin/Login/login.css">
+	<link rel="stylesheet" type="text/css" href="admin/login/login.css">
 	
 </head>
 
